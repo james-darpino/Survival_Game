@@ -12,7 +12,7 @@ public class Q2_5_darpino {
 		double gratuity = input.nextDouble();
 
 		// Calculate gratuity and total
-		double calculateGratuity = (gratuity / 10);
+		double calculateGratuity = (gratuity / 10); // calculateGratuity = subtotal * gratuity / 100;
 		double total = (calculateGratuity + subtotal);
 
 		// Display results 
