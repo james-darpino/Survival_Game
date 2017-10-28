@@ -43,7 +43,7 @@ public class Rectangle {
 	public  double getPerimeter() {
 
 		//the perimeter of a rectangle 
-		double perimeter = 2.0 *(width * height);
+		double perimeter = 2.0 *(width + height); // JA: + instead of *
 
 		//return perimeter
 		return perimeter;

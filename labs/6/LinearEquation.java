@@ -11,12 +11,12 @@ public class LinearEquation {
 
 		//constructor with a,b,c,d,e,f
 		LinearEquation(double a, double b, double c, double d, double e, double f) {
-			a = 0;
-			b = 0;
-			c = 0;
-			d = 0;
-			e = 0;
-			f = 0;
+			this.a = a; // JA
+			this.b = b; // JA
+			this.c = c; // JA
+			this.d = d; // JA
+			this.e = e; // JA
+			this.f = f; // JA
 		}
 		
 
