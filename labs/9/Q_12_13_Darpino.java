@@ -8,6 +8,7 @@ public class Q_12_13_Darpino {
 		int words = 0;
 		int lines = 0;
 
+		// JA: This is does not match this problem 
 		if (args.length != 4) {
 			System.out.println("Usage: java ReplaceText sourceFile targetFile oldStr newStr");
 			System.exit(1);
