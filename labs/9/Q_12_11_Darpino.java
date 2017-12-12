@@ -9,6 +9,7 @@ public class Q_12_11_Darpino {
 
 	public static void main(String[] args) throws Exception{
 
+		// JA: This was supposed to read the file name in the command line
 		File file = new File("C:\\Users\\pc\\Documents\\GitHub\\cmpt220Darpino\\cmpt220Darpino\\labs\\9\\myFile.txt");
 		File temp = File.createTempFile("file", ".txt", file.getParentFile());
 
